@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+   
+
+}
+header{
+    background-color: gray;
+    border-bottom: 2px solid orangered;
+    
+}
+#showcase{
+  height: 50%;
+}
+.container{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav
+{
+
+    float: right;
+   
+    align-items: center;
+    justify-content: center;
+  
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+   display: inline;
+ 
+   text-transform: uppercase;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 20px;
+   
+
+}
+#branding{
+    width: 20%;
+    margin:0;
+    display: inline-block;
+  
+
+}
+#gigi{
+    float: right;
+    margin: 0;
+    color: white;
+}
+.highlight{
+    color: orangered;
+}
+#mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-image: url("../img/gigi-logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+}
+#dex{
+    text-align: center;
+}
+#newsletter
+{
+    background-color: gray;
+    color: white;
+    
+}
+#bottom{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#email
+{
+    padding: 10px;
+    outline: none;
+}
+.button_1{
+    padding: 10px;
+    background-color: orangered;
+    border: none;
+}
+.box{
+ 
+    padding: 50px;
+    text-align: center;
+}
+#logos
+{
+   margin-left: 10%;
+   margin-right: 10%;
+
+   
+ 
+}
+#boxes{
+   
+}
+footer{
+
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   background-color: orangered;
+   color: white;
+   padding: 20px;
+}
+.box h3,p{
+    margin: 0;
+}
+.box img{
+    height: 100px;
+    width: 100px;
+}
